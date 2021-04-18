@@ -9,8 +9,8 @@ class Main {
     
     // 38と19を足して出力してください
     System.out.println(38 + 19);
+   
     
-
   }
 }
 
