@@ -1,69 +1,28 @@
-//文字列
-
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-  pageEncoding="UTF-8"%>
-<html lang="ja">
+//Java基本　復習
 
 class Main {
   public static void main(String[] args) {
-    // "こんにちは"と"世界"を連結して出力してください
-    System.out.println("こんにちは" + "世界"); 
+    // 変数nameに、好きな名前を代入してください
+    String name = "奥村";
     
-    // "38"と"19"を連結して出力してください
-    System.out.println("38" + "19");
+    // 変数ageに、好きな年齢を代入してください
+    int age = 28;
     
-    // 38と19を足して出力してください
-    System.out.println(38 + 19);
-
-
+    // 変数heightに、好きな身長を代入してください（例: 1.2）
+    double height = 173.5;
+    
+    // 変数weightに、好きな体重を代入してください（例: 20.0）
+    double weight = 83.5;
+    
+    // 変数bmiに、BMIを計算して代入してください
+    double bmi = weight / height / height;
+    
+    // 名前、年齢、身長、体重、BMIに関する情報を出力してください
+  System.out.println("名前は" + name + "です");
+  System.out.println("年齢は" + age + "歳です");
+  System.out.println("身長は" + height + "mです");
+  System.out.println("体重は" + weight + "kgです");
+  System.out.println("BMIは" + bmi + "です");
   }
 }
-
-//変数
-class Main {
-  public static void main(String[] args) {
-    // int型の変数numberを定義してください
-    int number;
-    
-    // 変数numberに3を代入してください
-    number = 3;
-    
-    // 変数numberを出力してください
-    System.out.println(number);
-
-    // String型の変数nameを定義してください
-    String name;
-    
-    // 変数nameに"Wanko"を代入してください
-    name = "Wanko";
-    
-    // 変数nameを出力してください
-    System.out.println(name);
-    
-    
-  }
-}
-
-//変数初期化
-
-class Main {
-  public static void main(String[] args) {
-    int number1 = 3;
-    
-    // int型の変数number2を定義し、7を代入してください
-   int number2 = 7; 
-    
-    // number1 * number2を出力してください
-    System.out.println(number1 * number2); 
-    
-    // 変数textに「プログラミングを勉強しよう」を代入してください
-    String text = "プログラミングを勉強しよう" ;
-    
-    // 「Progateで」と変数textを連結して出力してください
-   System.out.println("Progateで" + text); 
-    
-  }
-}
-
-
 
